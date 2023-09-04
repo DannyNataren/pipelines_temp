@@ -76,6 +76,11 @@ TEMPLATES = [
     },
 ]
 
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'applications.users.backends.EmailAuthBackend'
+)
+
 WSGI_APPLICATION = 'pipelines_backend.wsgi.application'
 
 AUTH_PASSWORD_VALIDATORS = [

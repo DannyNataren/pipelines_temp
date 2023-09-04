@@ -12,8 +12,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'pipelines',
-        'USER': 'daniel',
-        'PASSWORD': '12345',
+        'USER': 'postgres',
+        'PASSWORD': 'Nintendo64',
         'HOST': 'localhost',
         'PORT': '5432'
     }
